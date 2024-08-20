@@ -93,33 +93,39 @@ if (totalShoppingCart > 50) {
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const whatIsIt = 5;
+console.log(typeof whatIsIt);
+*/
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+/*
+const num = 3;
+if (num % 2 === 0) {
+  console.log("il numero è", num, "ed è pari");
+} else {
+  console.log("questo numero è", num, "ed è dispari");
+}
+*/
 
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
-  let val = 7
-  if (val < 10) {
-      console.log("Meno di 10");
-    } else if (val < 5) {
-      console.log("Meno di 5");
-    } else {
-      console.log("Uguale a 10 o maggiore");
-    }
+  
+let val = 4;
+if (val < 10 && val > 5) {
+  console.log("Meno di 10");
+} else if (val < 5) {
+  console.log("Meno di 5");
+} else {
+  console.log("Uguale a 10 o maggiore");
+}
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
+//MODIFICA FATTA ALL'IF CON (...&& VAL>5)
 
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
