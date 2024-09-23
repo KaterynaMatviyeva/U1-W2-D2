@@ -81,21 +81,32 @@ if (totalShoppingCart > 50) {
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
 
-let percentuale = 20;
-let totale = (percentuale / 100) * totalShoppingCart;
+// let percentuale = 20;
+// let totale = (percentuale / 100) * totalShoppingCart;
 
-if (totalShoppingCart >= 50) {
-  console.log("la spedizione è gratuita, il totale è di", totale, "euro");
-} else if (totalShoppingCart < 50) {
-  totale = totalShoppingCart + 10;
-  console.log("il suo totale è di", totale, "euro");
-}
+// if (totalShoppingCart >= 50) {
+//   console.log("la spedizione è gratuita, il totale è di", totale, "euro");
+// } else if (totalShoppingCart < 50) {
+//   totale = totalShoppingCart + 10;
+//   console.log("il suo totale è di", totale, "euro");
+// }
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
   Utilizzando un blocco condizionale, crea un algoritmo per ordinarle secondo il loro valore, dal più alto al più basso.
   Alla fine mostra il risultato in console.
 */
+
+const a = 3;
+const b = 2;
+const c = 4;
+if (a > b && a > c) {
+  console.log(a, b, c);
+} else if (b > a && b > c) {
+  console.log(b, a, c);
+} else if (c > a && c > b) {
+  console.log(c, a, b);
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
